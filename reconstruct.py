@@ -6,12 +6,12 @@ from matplotlib.widgets import Slider
 from PIL import Image
 import numpy as np
 
-latent_dim=512
+latent_dim=16
 
 encoder = Encoder(latent_dim).cuda()
 decoder = Decoder(latent_dim).cuda()
 
-save = torch.load("model.pt")
+save = torch.load("model_best.pt")
 
 encoder.load_state_dict(save["encoder_states"])
 decoder.load_state_dict(save["decoder_states"])
