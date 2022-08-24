@@ -9,4 +9,4 @@ Some generated faces:
 
 test.py provides an interface for exploring the latent space:
 
-![image}(https://github.com/dmpribak/faces-vae/blob/c18f2d376fcb9331ad4b7402dea6478c52467025/latent_explorer.png)
+![image](https://github.com/dmpribak/faces-vae/blob/c18f2d376fcb9331ad4b7402dea6478c52467025/latent_explorer.png)
